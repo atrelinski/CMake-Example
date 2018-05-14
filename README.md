@@ -10,6 +10,11 @@ It doesn't contain any wise C++ code, it shows how to use CMake, in particular:
 - Installation Package (single file (.exe, .7z, .zip etc.)) that contain above components, so program could be distributed and installed on other machines (CPack)
 
 
+# To run this example:
+- download repository on your hard-disk
+- in the downloaded folder in command line run `cmake" -H. -Bbuild`. This will create `build` directory and e.g. generate solution to Visual Studio
+
+
 # To Do:
 - Source Package (to distribute sources)
 - GoogleTests integration (to test StaticLib and DynamicLib code)
