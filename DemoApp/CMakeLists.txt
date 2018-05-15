@@ -1,4 +1,4 @@
-add_executable (Demo main.cpp)
+add_executable(Demo main.cpp)
 
 
 # Demo application require both libraries, so add them
@@ -9,6 +9,6 @@ target_link_libraries(Demo
 
 
 # Point to which directory Demo is copied during installation and packaging
-install (TARGETS Demo DESTINATION demo)
+install(TARGETS Demo DESTINATION demo)
 
 

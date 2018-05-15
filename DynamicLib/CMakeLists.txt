@@ -7,7 +7,7 @@ set(MODULE_FILES
 )
 
 
-add_library (DLib SHARED ${MODULE_FILES})
+add_library(DLib SHARED ${MODULE_FILES})
 
 
 #include(GenerateExportHeader)
@@ -16,12 +16,12 @@ add_library (DLib SHARED ${MODULE_FILES})
 
 # Make sure the compiler can find include files for our Hello library
 # when other libraries or executables link to Hello
-target_include_directories (DLib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(DLib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
 
 # List files that install and/or package should provide.
 # Each library should know what it want to distribute,
 # which files are internal or intermediate and which are public library export.
-install (TARGETS DLib DESTINATION DLib-bin)
-install (FILES d-hello.h DESTINATION DLib-include)
+install(TARGETS DLib DESTINATION DLib-bin)
+install(FILES d-hello.h DESTINATION DLib-include)
 
