@@ -24,7 +24,6 @@ It doesn't contain any wise C++ code, it shows how to use CMake, in particular:
 # To Do:
 - Generating export macro automatically by CMake 
 - Debugging StaticLib.lib and DynamicLib.dll through running Demo.exe
-- Building-in version number to Demo.exe (from CMake)
 - Source Package (to distribute sources)
 - GoogleTests integration (to test StaticLib and DynamicLib code)
 - Building-in version number to StaticLib.lib and DynamicLib.dll (from CMake)
