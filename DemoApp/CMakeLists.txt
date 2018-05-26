@@ -22,5 +22,5 @@ target_link_libraries(Demo
 
 # Point to which directory Demo is copied during installation and packaging
 install(TARGETS Demo DESTINATION demo)
-
+install(EXPORT DLib DESTINATION demo)
 
