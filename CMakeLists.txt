@@ -1,5 +1,9 @@
-cmake_minimum_required(VERSION 2.8.11)
+cmake_minimum_required(VERSION 3.1.0)
 project(CMake-Example)
+
+
+# Enforce c++11 standard.
+set (CMAKE_CXX_STANDARD 11)
 
 
 # The version number.
