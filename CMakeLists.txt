@@ -1,5 +1,9 @@
-cmake_minimum_required(VERSION 2.8.11)
+cmake_minimum_required(VERSION 3.8.2) # 3.8.0 is minimum version that allow Linux remote building and debugging
 project(CMake-Example)
+
+
+# Enforce c++11 standard.
+set (CMAKE_CXX_STANDARD 11)
 
 
 # The version number.
