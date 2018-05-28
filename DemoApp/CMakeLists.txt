@@ -24,3 +24,12 @@ target_link_libraries(Demo
 install(TARGETS Demo DESTINATION demo)
 
 
+# Below doesn't work!
+#install(TARGETS Demo EXPORT DLib DESTINATION demo)
+#install(EXPORT DLib DESTINATION dddd)
+
+# Below doesn't work!    variations also doesn't work becasue path is relative to sources
+#install(TARGETS ../DLib-bin/DLib DESTINATION demo)
+
+# Below work but leads to nowhere
+#install(FILES ../License.txt DESTINATION demo)

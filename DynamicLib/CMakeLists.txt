@@ -25,3 +25,5 @@ target_include_directories(DLib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 install(TARGETS DLib DESTINATION DLib-bin)
 install(FILES d-hello.h DESTINATION DLib-include)
 
+# This work but only for install and it is ugly (DLib.dll know nothing about demo.exe).  Doesn't work for run for build directory (F5)
+install(TARGETS DLib RUNTIME DESTINATION demo)
