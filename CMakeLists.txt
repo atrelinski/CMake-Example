@@ -121,5 +121,5 @@ add_custom_target(bund2 ALL
 ##    -D "CPACK_BUNDLE_TEMPLATE_CONFIG_FILE=${CPACK_BUNDLE_TEMPLATE_CONFIG_FILE}"
 ##    -D "CPACK_BUNDLE_OUTPUT_CONFIG_FILE=${CPACK_BUNDLE_OUTPUT_CONFIG_FILE}"
 ##    # this one must be after all `-D`s
-    -P "${CMAKE_BINARY_DIR}/CPackCon.cmake")
+    -P "${CMAKE_SOURCE_DIR}/CPackCon.cmake")
 
