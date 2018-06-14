@@ -16,8 +16,9 @@ It doesn't contain any wise C++ code, it shows how to use CMake, in particular:
 
 # To run this example:
 - download repository on your hard-disk
-- in the downloaded folder in command line run `cmake -H. -Bbuild`. This will create `build` directory and e.g. generate solution to Visual Studio
-- After opening .sln in Visual Studio you should see something like that
+- in the downloaded folder in command line run `cmake -H. -Bbuild`. This will create `build` directory.
+- to compile from command line in windows run `cmake --build build --config Release`
+- or you can open generated .sln in Visual Studio - then you should see something like that:
 
 ![VS view](doc/vs-view.png)
 
