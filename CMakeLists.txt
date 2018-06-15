@@ -25,6 +25,10 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT Demo)
 
 
+# GENERATOR_IS_MULTI_CONFIG (since cmake 3.9.6) is Read-only property that is true on multi-configuration generators.
+#GENERATOR_IS_MULTI_CONFIG
+
+
 #add_custom_target(BUNDLE COMMAND ${CMAKE_COMMAND} -E touch "doxygen$<CONFIGURATION>.stamp")
 #
 
