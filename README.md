@@ -19,9 +19,11 @@ It doesn't contain any wise C++ code, it shows how to use CMake, in particular:
 - in the downloaded folder, in command line run `cmake -H. -Bbuild`.
 This will create `build` directory and solution (*.sln) in it.
 Then run `cmake --build build --config Release` in windows command line to compile.
-- or you can open generated .sln in Visual Studio - then you should see something like that:
+- Alternatively you can open generated *.sln in Visual Studio - then you should see something like that:
 
 ![VS view](doc/vs-view.png)
+
+- the other option is just open CMakeLists.txt directly in Visual Studio 2017 (Menu -> File -> Open -> CMake...)
 
 # To Do:
 - Generating export macro automatically by CMake 
